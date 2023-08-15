@@ -14,7 +14,7 @@ class ScreenOne extends StatelessWidget {
           'Service Costs & Expenses',
           style: TextStyle(
             color: Color(0xFF1E1E1E),
-            fontSize: 14,
+            fontSize: 16,
             fontFamily: 'Poppins',
             fontWeight: FontWeight.w500,
           ),

@@ -14,7 +14,7 @@ class CancelPage extends StatelessWidget {
           'Cancel',
           style: TextStyle(
             color: Color(0xFF1E1E1E),
-            fontSize: 14,
+            fontSize: 16,
             fontFamily: 'Poppins',
             fontWeight: FontWeight.w500,
           ),
@@ -27,8 +27,8 @@ class CancelPage extends StatelessWidget {
       body: Column(
         children: [
           Container(
-            width: 328,
-            height: 83,
+            width: 350,
+            height: 90,
             decoration: ShapeDecoration(
               gradient: const LinearGradient(
                 begin: Alignment(0.00, -1.00),
@@ -79,9 +79,9 @@ class CancelPage extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Colors.white,
-                        fontSize: 20,
+                        fontSize: 22,
                         fontFamily: 'Poppins',
-                        fontWeight: FontWeight.w500,
+                        fontWeight: FontWeight.w600,
                       ),
                     ),
                     Text(
