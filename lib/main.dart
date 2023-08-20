@@ -1,4 +1,4 @@
-import 'package:bharat_erp/pages/sla_cpmpliance.dart';
+import 'package:bharat_erp/pages/request_for_assets.dart';
 
 import 'package:flutter/material.dart';
 
@@ -34,6 +34,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: SLACompliance());
+        home: RequestForAssets());
   }
 }
