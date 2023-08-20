@@ -1,6 +1,4 @@
-import 'package:bharat_erp/pages/delay_page.dart';
-import 'package:bharat_erp/pages/on_time_closed.dart';
-import 'package:bharat_erp/pages/repeat.dart';
+import 'package:bharat_erp/pages/request_for_assets.dart';
 
 import 'package:flutter/material.dart';
 
@@ -36,6 +34,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: OnTimeClosed());
+        home: RequestForAssets());
   }
 }
